@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="توثيق دورة أنماط التصميم">
+    <meta name="author" content="اسمك">
+    <title>توثيق دورة أنماط التصميم</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1>توثيق دورة: أنماط التصميم</h1>
+            <p>مرحبًا بك في صفحة توثيق الدورة الخاصة بأنماط التصميم!</p>
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">عن الدورة</a></li>
+            <li><a href="#content">المحتوى</a></li>
+            <li><a href="#outcomes">المخرجات</a></li>
+            <li><a href="#contact">تواصل معي</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>عن الدورة</h2>
+                <p>دورة "أنماط التصميم" تهدف إلى تعريف المتعلمين بمفاهيم النمذجة وتصميم الأنظمة باستخدام أدوات مثل UML Diagram. كما تركز على تطوير فهم عميق للعلاقات بين مكونات الأنظمة البرمجية.</p>
+            </div>
+        </section>
+        <section id="content" class="section">
+            <div class="container">
+                <h2>محتوى الدورة</h2>
+                <h3>ما هي النمذجة؟</h3>
+                <p>النمذجة هي عملية تصوير وتبسيط الأنظمة البرمجية باستخدام رسوم بيانية تُظهر البنية العامة للنظام وعلاقاته ومكوناته. تتيح للمطورين والمحللين توثيق الأفكار وتنظيمها قبل البدء في عملية التطوير الفعلية.</p>
+                
+                <h3>ما هو UML Diagram؟</h3>
+                <p>UML (Unified Modeling Language) هي لغة قياسية تُستخدم لتوصيف الأنظمة البرمجية من خلال مجموعة من الرسوم التخطيطية. تساعد هذه الرسوم في توضيح التصميم، العلاقات، وسير العمل بين مكونات النظام.</p>
+                
+                <h4>أنواع الرسوم التخطيطية في UML</h4>
+                <ul>
+                    <li><strong>Class Diagram (مخطط الفئات):</strong> يُظهر العلاقات بين الكائنات (Classes) والخصائص (Attributes) والوظائف (Methods) الخاصة بها.</li>
+                    <li><strong>Sequence Diagram:</strong> يُوضح ترتيب العمليات المتبادلة بين الكائنات أثناء تنفيذها.</li>
+                    <li><strong>Use Case Diagram:</strong> يشرح التفاعلات بين المستخدمين والنظام.</li>
+                </ul>
+                
+                <h3>أداة لرسم التصاميم: Visual Paradigm</h3>
+                <p>Visual Paradigm هي أداة قوية تُستخدم لرسم وتصميم الرسوم التخطيطية للبرمجيات باستخدام UML. توفر واجهة سهلة الاستخدام وتدعم إنشاء مجموعة متنوعة من الرسوم مثل Class Diagram وSequence Diagram.</p>
+                <p>رابط الأداة: <a href="https://www.visual-paradigm.com/" target="_blank">Visual Paradigm</a></p>
+            </div>
+        </section>
+        <section id="outcomes" class="section">
+            <div class="container">
+                <h2>المخرجات</h2>
+                <p>المهارات المكتسبة بعد الدورة:</p>
+                <ul>
+                    <li>فهم أساسي للنمذجة باستخدام UML.</li>
+                    <li>القدرة على تصميم Class Diagram بمكونات واضحة.</li>
+                    <li>استخدام أدوات مثل Visual Paradigm لتوثيق الأنظمة البرمجية.</li>
+                </ul>
+            </div>
+        </section>
+       
+        
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>عن الدورة</h2>
+                <p>دورة "أنماط التصميم" تهدف إلى تعريف المتعلمين بمفاهيم النمذجة وتصميم الأنظمة باستخدام أدوات مثل UML Diagram. كما تركز على تطوير فهم عميق للعلاقات بين مكونات الأنظمة البرمجية.</p>
+            </div>
+        </section>
+        <section id="content" class="section">
+            <div class="container">
+                <h2>محتوى الدورة</h2>
+                <h3>أنماط التصميم</h3>
+                <p>في هذه الدورة، تعلمنا الأنواع الرئيسية لأنماط التصميم:</p>
+                <ul>
+                    <li>النمط الهيكلي (Structural Patterns): يركز على تنظيم مكونات النظام بطريقة تُحسّن الكفاءة وسهولة الصيانة.</li>
+                    <li>النمط الإنشائي (Creational Patterns): يختص بإنشاء الكائنات بشكل يضمن مرونة التصميم.</li>
+                    <li>أنماط أخرى تُعنى بالسلوك، مثل نمط التصميم الصانع (Factory Method).</li>
+                </ul>
+            </div>
+        </section>
+        <section id="factory-method" class="section">
+            <div class="container">
+                <h2>نمط تصميم الصانع (Factory Method)</h2>
+                <p><strong>ما هو نمط الصانع؟</strong></p>
+                <p>نمط الصانع هو نمط تصميم إنشائي يُستخدم لإنشاء كائنات من فئات مختلفة استنادًا إلى مدخلات معينة أو معايير محددة، دون تحديد النوع الدقيق للكائن المراد إنشاؤه داخل الكود الأساسي.</p>
+                <h3>مميزات النمط:</h3>
+                <ul>
+                    <li>يعزز مبدأ الاستقلالية بين الكائنات.</li>
+                    <li>يسمح بإضافة أنواع جديدة بسهولة دون الحاجة إلى تعديل الكود الموجود.</li>
+                    <li>يُسهل اختبار الكود بفضل تقليل التبعيات المباشرة.</li>
+                </ul>
+                <h3>أين يُستخدم؟</h3>
+                <p>يُستخدم نمط الصانع عندما نحتاج إلى إنشاء كائنات دون تحديد فئاتها بشكل مباشر في الكود، مثل:</p>
+                <ul>
+                    <li>تطبيقات واجهة المستخدم حيث يمكن إنشاء عناصر مثل الأزرار والقوائم لأنظمة تشغيل مختلفة.</li>
+                    <li>أنظمة معالجة الدفع التي تعتمد على نوع المدفوعات (نقد، بطاقة ائتمان، إلخ).</li>
+                </ul>
+                <h3>مثال عملي:</h3>
+                <p>في المثال التالي، يتم إنشاء أزرار لأنظمة تشغيل مختلفة باستخدام نمط الصانع:</p>
+                <img src="factorymethod.png" alt="مثال عملي على Factory Method" style="width: 100%; max-width: 600px;">
+            </div>
+        </section>
+        <h1>Abstract Factory Example</h1>
+
+    <h2>Problem Description (Class Diagram)</h2>
+    <p>
+        The first diagram illustrates the problem as an abstract factory class diagram. It shows the relationships between the abstract factory, concrete factories, abstract products, and concrete products. 
+    </p>
+
+    <h2>Problem Implemented in Python</h2>
+
+    <h3>Abstract Factory and Products</h3>
+    <div class="code-block">
+        <pre>
+from abc import ABC, abstractmethod
+
+# Abstract Factory
+class FurnitureFactory(ABC):
+    @abstractmethod
+    def create_chair(self):
+        pass
+
+    @abstractmethod
+    def create_table(self):
+        pass
+
+# Abstract Products
+class Chair(ABC):
+    @abstractmethod
+    def sit_on(self):
+        pass
+
+class Table(ABC):
+    @abstractmethod
+    def eat_on(self):
+        pass
+        </pre>
+    </div>
+
+    <h3>Concrete Factories</h3>
+    <div class="code-block">
+        <pre>
+# Concrete Factories
+class ModernFurnitureFactory(FurnitureFactory):
+    def create_chair(self):
+        return ModernChair()
+
+    def create_table(self):
+        return ModernTable()
+
+class VictorianFurnitureFactory(FurnitureFactory):
+    def create_chair(self):
+        return VictorianChair()
+
+    def create_table(self):
+        return VictorianTable()
+        </pre>
+    </div>
+
+    <h3>Concrete Products</h3>
+    <div class="code-block">
+        <pre>
+# Concrete Products
+class ModernChair(Chair):
+    def sit_on(self):
+        return "Sitting on a modern chair."
+
+class ModernTable(Table):
+    def eat_on(self):
+        return "Eating on a modern table."
+
+class VictorianChair(Chair):
+    def sit_on(self):
+        return "Sitting on a Victorian chair."
+
+class VictorianTable(Table):
+    def eat_on(self):
+        return "Eating on a Victorian table."
+        </pre>
+    </div>
+
+    <h3>Client Code</h3>
+    <div class="code-block">
+        <pre>
+# Client Code
+def get_furniture(factory: FurnitureFactory):
+    chair = factory.create_chair()
+    table = factory.create_table()
+    print(chair.sit_on())
+    print(table.eat_on())
+
+# Usage
+factory = ModernFurnitureFactory()
+get_furniture(factory)
+
+factory = VictorianFurnitureFactory()
+get_furniture(factory)
+        </pre>
+    </div>
+    <h1>النمط الباني (Builder Pattern)</h1>
+    <p>
+        النمط الباني (Builder Pattern) هو أحد أنماط التصميم (Design Patterns) في البرمجة التي تهدف إلى فصل عملية بناء كائن معقد عن تمثيله،
+        بحيث يمكن إنشاء تمثيلات مختلفة لنفس الكائن. يُستخدم هذا النمط عندما يكون هناك حاجة لإنشاء كائن يحتوي على العديد من الخصائص أو المعاملات المعقدة التي يمكن تعديلها أو تخصيصها بطرق مختلفة.
+    </p>
+
+    <h2>فكرة النمط:</h2>
+    <ul>
+        <li>النمط الباني يُفصل عملية البناء عن الكائن النهائي، مما يسهل بناءه بطرق مرنة.</li>
+        <li>يُستخدم عندما يحتوي الكائن على العديد من الخصائص أو المعاملات المعقدة التي يمكن تخصيصها.</li>
+    </ul>
+
+    <h2>المثال:</h2>
+    <p>إليك تطبيق النمط الباني باستخدام بايثون، حيث يتم بناء كائن "سيارة" مع خصائص مختلفة مثل اللون ونوع المحرك وعدد العجلات:</p>
+
+    <pre>
+# تعريف الكائن النهائي (Product)
+class Car:
+    def __init__(self, color=None, engine_type=None, wheels=None):
+        self.color = color
+        self.engine_type = engine_type
+        self.wheels = wheels
+
+    def __str__(self):
+        return f"سيارة - اللون: {self.color}, نوع المحرك: {self.engine_type}, العجلات: {self.wheels}"
+
+# واجهة الباني (Builder)
+class CarBuilder:
+    def set_color(self, color):
+        pass
+
+    def set_engine_type(self, engine_type):
+        pass
+
+    def set_wheels(self, wheels):
+        pass
+
+    def build(self):
+        pass
+
+# تنفيذ الباني (ConcreteBuilder)
+class ConcreteCarBuilder(CarBuilder):
+    def __init__(self):
+        self.car = Car()
+
+    def set_color(self, color):
+        self.car.color = color
+
+    def set_engine_type(self, engine_type):
+        self.car.engine_type = engine_type
+
+    def set_wheels(self, wheels):
+        self.car.wheels = wheels
+
+    def build(self):
+        return self.car
+
+# مدير البناء (Director)
+class Director:
+    def __init__(self, builder):
+        self.builder = builder
+
+    def construct(self):
+        self.builder.set_color("أحمر")
+        self.builder.set_engine_type("بنزين")
+        self.builder.set_wheels(4)
+
+# الاستخدام
+builder = ConcreteCarBuilder()
+director = Director(builder)
+director.construct()
+
+car = builder.build()
+print(car)
+    </pre>
+    
+    <h3>نتيجة الكود:</h3>
+    <p>بعد تنفيذ الكود، سيتم بناء سيارة بالخصائص التي حددها مدير البناء، وستكون النتيجة على النحو التالي:</p>
+    <pre>
+سيارة - اللون: أحمر, نوع المحرك: بنزين, العجلات: 4
+    </pre>
+    
+    <p>الكود يوضح كيفية استخدام النمط الباني لبناء سيارة مع خصائص مختلفة مثل اللون ونوع المحرك وعدد العجلات، وذلك باستخدام خطوات مرنة وقابلة للتخصيص.</p>
+
+
+    <h1>أنماط التصميم: Prototype و Singleton</h1>
+
+    <!-- قسم البروتوتايب -->
+    <section class="section">
+        <h2>نمط البروتوتايب (Prototype)</h2>
+        <p>
+            نمط البروتوتايب هو نمط تصميم إنشائي يُستخدم لإنشاء كائنات جديدة عن طريق نسخ كائن موجود مسبقًا 
+            بدلاً من إنشائه من الصفر. يُعتبر هذا النمط مثاليًا عندما تكون عملية إنشاء الكائن مكلفة أو معقدة.
+        </p>
+
+        <h3>مميزاته:</h3>
+        <ul>
+            <li>يقلل من تكلفة إنشاء الكائنات.</li>
+            <li>يوفر مرونة لإنشاء كائنات مخصصة بناءً على نسخة أصلية.</li>
+            <li>يمكن تعديل الكائنات المنسوخة بشكل مستقل.</li>
+        </ul>
+
+        <h3>مثال عملي باستخدام بايثون:</h3>
+        <pre>
+import copy
+
+class Prototype:
+    def __init__(self):
+        self._objects = {}
+
+    def register_object(self, name, obj):
+        self._objects[name] = obj
+
+    def unregister_object(self, name):
+        if name in self._objects:
+            del self._objects[name]
+
+    def clone(self, name, **attrs):
+        obj = copy.deepcopy(self._objects.get(name))
+        if obj:
+            obj.__dict__.update(attrs)
+        return obj
+
+# كائن أساسي
+class Car:
+    def __init__(self, model, color):
+        self.model = model
+        self.color = color
+
+    def __str__(self):
+        return f"Car(model={self.model}, color={self.color})"
+
+# إنشاء البروتوتايب
+prototype = Prototype()
+car = Car("Toyota", "Red")
+prototype.register_object("basic_car", car)
+
+# استنساخ كائن مع تعديل الخصائص
+new_car = prototype.clone("basic_car", color="Blue")
+print(new_car)  # Car(model=Toyota, color=Blue)
+        </pre>
+    </section>
+
+    <!-- قسم المفردة -->
+    <section class="section">
+        <h2>نمط المفردة (Singleton)</h2>
+        <p>
+            نمط الفريدة هو نمط تصميم إنشائي يضمن وجود نسخة واحدة فقط من كائن معين في التطبيق. يُستخدم هذا النمط لإدارة الموارد المشتركة مثل قواعد البيانات أو سجلات التطبيق.
+        </p>
+
+        <h3>مميزاته:</h3>
+        <ul>
+            <li>يحافظ على حالة الكائن عبر التطبيق.</li>
+            <li>يوفر نقطة وصول عالمية للكائن.</li>
+            <li>يقلل من استهلاك الموارد عند استخدام كائنات متعددة.</li>
+        </ul>
+
+        <h3>مثال عملي باستخدام بايثون:</h3>
+        <pre>
+class SingletonMeta(type):
+    _instances = {}
+
+    def __call__(cls, *args, **kwargs):
+        if cls not in cls._instances:
+            instance = super().__call__(*args, **kwargs)
+            cls._instances[cls] = instance
+        return cls._instances[cls]
+
+class DatabaseConnection(metaclass=SingletonMeta):
+    def __init__(self):
+        self.connection = "Database Connection Established"
+
+# اختبار النمط
+db1 = DatabaseConnection()
+db2 = DatabaseConnection()
+
+print(db1 is db2)  # True
+print(db1.connection)  # Database Connection Established
+        </pre>
+    </section>
+
+    
+    <!-- درس المحول Adapter -->
+    <div class="lesson">
+        <h2>01. نمط المحول (Adapter)</h2>
+        <p>يستخدم هذا النمط لتحويل واجهة صنف (Class) إلى واجهة أخرى يتوقعها العملاء. يُسهل هذا النمط العمل بين صنفين غير متوافقين عن طريق إنشاء محول بينهما.</p>
+        <h3>مثال بايثون:</h3>
+        <pre>
+class OldSystem:
+    def specific_request(self):
+        return "النتيجة من النظام القديم"
+
+class Adapter:
+    def __init__(self, old_system):
+        self.old_system = old_system
+
+    def request(self):
+        return self.old_system.specific_request()
+
+old_system = OldSystem()
+adapter = Adapter(old_system)
+print(adapter.request())  # "النتيجة من النظام القديم"
+        </pre>
+        <p><strong>المدة:</strong> 11.56 دقيقة</p>
+    </div>
+
+    <!-- درس الجسر Bridge -->
+    <div class="lesson">
+        <h2>02. نمط الجسر (Bridge)</h2>
+        <p>يعمل هذا النمط على فصل واجهة الصنف عن التنفيذ الخاص بها، مما يسمح لكل منهما بالتطور بشكل مستقل.</p>
+        <h3>مثال بايثون:</h3>
+        <pre>
+class Device:
+    def turn_on(self):
+        pass
+
+class Radio(Device):
+    def turn_on(self):
+        print("تشغيل الراديو")
+
+class TV(Device):
+    def turn_on(self):
+        print("تشغيل التلفاز")
+
+class RemoteControl:
+    def __init__(self, device):
+        self.device = device
+
+    def press_button(self):
+        self.device.turn_on()
+
+tv = TV()
+remote = RemoteControl(tv)
+remote.press_button()  # "تشغيل التلفاز"
+        </pre>
+        <p><strong>المدة:</strong> 11.13 دقيقة</p>
+    </div>
+
+    <!-- درس المركب Composite -->
+    <div class="lesson">
+        <h2>03. نمط المركب (Composite)</h2>
+        <p>يسمح هذا النمط بتركيب العناصر في شجرة لتقديم تمثيل هرمي حيث يمكن التعامل مع العناصر الفردية والمجموعات بشكل موحد.</p>
+        <h3>مثال بايثون:</h3>
+        <pre>
+class Component:
+    def operation(self):
+        pass
+
+class Leaf(Component):
+    def operation(self):
+        return "ورقة"
+
+class Composite(Component):
+    def __init__(self):
+        self.children = []
+
+    def add(self, component):
+        self.children.append(component)
+
+    def operation(self):
+        results = [child.operation() for child in self.children]
+        return f"مركب({', '.join(results)})"
+
+tree = Composite()
+tree.add(Leaf())
+tree.add(Leaf())
+print(tree.operation())  # "مركب(ورقة, ورقة)"
+        </pre>
+        <p><strong>المدة:</strong> 11.28 دقيقة</p>
+    </div>
+
+    <!-- درس المزخرف Decorator -->
+    <div class="lesson">
+        <h2>04. نمط المزخرف (Decorator)</h2>
+        <p>يُستخدم هذا النمط لإضافة وظائف جديدة إلى كائن بشكل ديناميكي دون تغيير كوده الأصلي.</p>
+        <h3>مثال بايثون:</h3>
+        <pre>
+class Component:
+    def operation(self):
+        return "عملية أساسية"
+
+class Decorator(Component):
+    def __init__(self, component):
+        self.component = component
+
+    def operation(self):
+        return f"مزخرف({self.component.operation()})"
+
+simple = Component()
+decorated = Decorator(simple)
+print(decorated.operation())  # "مزخرف(عملية أساسية)"
+        </pre>
+        <p><strong>المدة:</strong> 13.06 دقيقة</p>
+    </div>
+
+    <!-- درس الواجهة Facade -->
+    <div class="lesson">
+        <h2>05. نمط الواجهة (Facade)</h2>
+        <p>يُوفر هذا النمط واجهة مبسطة للوصول إلى نظام فرعي معقد.</p>
+        <h3>مثال بايثون:</h3>
+        <pre>
+class SubsystemA:
+    def operation_a(self):
+        return "عملية A"
+
+class SubsystemB:
+    def operation_b(self):
+        return "عملية B"
+
+class Facade:
+    def __init__(self):
+        self.sub_a = SubsystemA()
+        self.sub_b = SubsystemB()
+
+    def operation(self):
+        return f"{self.sub_a.operation_a()} + {self.sub_b.operation_b()}"
+
+facade = Facade()
+print(facade.operation())  # "عملية A + عملية B"
+        </pre>
+        <p><strong>المدة:</strong> 9.23 دقيقة</p>
+    </div>
+
+    <!-- درس الوكيل Proxy -->
+    <div class="lesson">
+        <h2>06. نمط الوكيل (Proxy)</h2>
+        <p>يوفر هذا النمط بديلًا أو وكيلًا لكائن آخر للتحكم في الوصول إليه أو تحسين أدائه.</p>
+        <h3>مثال بايثون:</h3>
+        <pre>
+class RealSubject:
+    def request(self):
+        return "طلب حقيقي"
+
+class Proxy:
+    def __init__(self, real_subject):
+        self.real_subject = real_subject
+
+    def request(self):
+        return f"وكيل: {self.real_subject.request()}"
+
+real_subject = RealSubject()
+proxy = Proxy(real_subject)
+print(proxy.request())  # "وكيل: طلب حقيقي"
+        </pre>
+        <p><strong>المدة:</strong> 12.04 دقيقة</p>
+    </div>
+    <h1>أنماط التصميم السلوكية</h1>
+
+    <h2>01. نمط سلسلة المسؤولية (Chain of Responsibility)</h2>
+    <p>
+        يسمح هذا النمط بتمرير الطلبات على سلسلة من المعالجات، بحيث يقوم كل معالج إما بمعالجة الطلب أو تمريره إلى المعالج التالي في السلسلة.
+    </p>
+    <p><strong>مثال بايثون:</strong></p>
+    <pre>
+class Handler:
+    def __init__(self, successor=None):
+        self.successor = successor
+
+    def handle_request(self, request):
+        if self.successor:
+            return self.successor.handle_request(request)
+
+class ConcreteHandlerA(Handler):
+    def handle_request(self, request):
+        if request == "A":
+            return "معالجة الطلب A"
+        return super().handle_request(request)
+
+class ConcreteHandlerB(Handler):
+    def handle_request(self, request):
+        if request == "B":
+            return "معالجة الطلب B"
+        return super().handle_request(request)
+
+handler = ConcreteHandlerA(ConcreteHandlerB())
+print(handler.handle_request("B"))  # "معالجة الطلب B"
+    </pre>
+    <p><strong>المدة:</strong> 12.03 دقيقة</p>
+
+    <h2>02. نمط الأمر (Command)</h2>
+    <p>
+        يُستخدم هذا النمط لتحويل الطلبات إلى كائنات مستقلة، مما يسمح بتمريرها كمعاملات وتنفيذها لاحقًا.
+    </p>
+    <p><strong>مثال بايثون:</strong></p>
+    <pre>
+class Command:
+    def execute(self):
+        pass
+
+class LightOnCommand(Command):
+    def execute(self):
+        return "تشغيل الضوء"
+
+class LightOffCommand(Command):
+    def execute(self):
+        return "إطفاء الضوء"
+
+command = LightOnCommand()
+print(command.execute())  # "تشغيل الضوء"
+    </pre>
+    <p><strong>المدة:</strong> 18.08 دقيقة</p>
+
+    <h2>03. نمط المكرِّر (Iterator)</h2>
+    <p>
+        يوفر هذا النمط طريقة للتنقل عبر عناصر مجموعة دون كشف التمثيل الأساسي لها.
+    </p>
+    <p><strong>مثال بايثون:</strong></p>
+    <pre>
+class Iterator:
+    def __init__(self, collection):
+        self.collection = collection
+        self.index = 0
+
+    def has_next(self):
+        return self.index < len(self.collection)
+
+    def next(self):
+        if self.has_next():
+            item = self.collection[self.index]
+            self.index += 1
+            return item
+        return None
+
+iterator = Iterator([1, 2, 3])
+while iterator.has_next():
+    print(iterator.next())
+    </pre>
+    <p><strong>المدة:</strong> 12.42 دقيقة</p>
+
+    <h2>04. نمط المراقب (Observer)</h2>
+    <p>
+        يسمح هذا النمط بإعلام مجموعة من الكائنات (المراقبين) عند حدوث تغيير في كائن معين (الموضوع).
+    </p>
+    <p><strong>مثال بايثون:</strong></p>
+    <pre>
+class Subject:
+    def __init__(self):
+        self.observers = []
+
+    def attach(self, observer):
+        self.observers.append(observer)
+
+    def notify(self, message):
+        for observer in self.observers:
+            observer.update(message)
+
+class Observer:
+    def update(self, message):
+        print(f"تمت الملاحظة: {message}")
+
+subject = Subject()
+observer = Observer()
+subject.attach(observer)
+subject.notify("تغيير في البيانات")
+    </pre>
+    <p><strong>المدة:</strong> 9.33 دقيقة</p>
+
+    <h2>05. نمط الحالة (State)</h2>
+    <p>
+        يغير هذا النمط سلوك كائن استنادًا إلى حالته الداخلية.
+    </p>
+    <p><strong>مثال بايثون:</strong></p>
+    <pre>
+class State:
+    def handle(self):
+        pass
+
+class StateA(State):
+    def handle(self):
+        return "الحالة A"
+
+class StateB(State):
+    def handle(self):
+        return "الحالة B"
+
+class Context:
+    def __init__(self, state):
+        self.state = state
+
+    def set_state(self, state):
+        self.state = state
+
+    def request(self):
+        return self.state.handle()
+
+context = Context(StateA())
+print(context.request())  # "الحالة A"
+context.set_state(StateB())
+print(context.request())  # "الحالة B"
+    </pre>
+    <p><strong>المدة:</strong> 11.03 دقيقة</p>
+
+    <h2>06. نمط الخطة (Strategy)</h2>
+    <p>
+        يسمح هذا النمط بتحديد مجموعة من الخوارزميات واستبدالها بشكل ديناميكي أثناء التشغيل.
+    </p><p><strong>مثال بايثون:</strong></p>
+    <pre>
+class Strategy:
+    def execute(self):
+        pass
+
+class StrategyA(Strategy):
+    def execute(self):
+        return "تنفيذ الخطة A"
+
+class StrategyB(Strategy):
+    def execute(self):
+        return "تنفيذ الخطة B"
+
+class Context:
+    def __init__(self, strategy):
+        self.strategy = strategy
+
+    def execute_strategy(self):
+        return self.strategy.execute()
+
+context = Context(StrategyA())
+print(context.execute_strategy())  # "تنفيذ الخطة A"
+context.strategy = StrategyB()
+print(context.execute_strategy())  # "تنفيذ الخطة B"
+    </pre>
+    <p><strong>المدة:</strong> 7.58 دقيقة</p>
+
+    <h2>07. نمط أسلوب القالب (Template Method)</h2>
+    <p>
+        يحدد هذا النمط الهيكل الأساسي لخوارزمية، ويترك التفاصيل الفرعية ليتم تنفيذها بواسطة الفئات الفرعية.
+    </p>
+    <p><strong>مثال بايثون:</strong></p>
+    <pre>
+class AbstractClass:
+    def template_method(self):
+        self.step_one()
+        self.step_two()
+
+    def step_one(self):
+        pass
+
+    def step_two(self):
+        pass
+
+class ConcreteClass(AbstractClass):
+    def step_one(self):
+        print("الخطوة الأولى")
+
+    def step_two(self):
+        print("الخطوة الثانية")
+
+obj = ConcreteClass()
+obj.template_method()
+    </pre>
+    <h1>تمارين عملية باستخدام أنماط التصميم</h1>
+
+    <h2>1. نمط سلسلة المسؤولية (Chain of Responsibility)</h2>
+    <p><strong>المشكلة:</strong></p>
+    <p>
+        لديك نظام دعم فني يتعامل مع مشاكل العملاء. بعض المشاكل يمكن أن تُحل بواسطة مشغل الهاتف، لكن البعض الآخر يتطلب تصعيدها إلى مدير الدعم الفني، وإذا لم تُحل بعد، يتم تصعيدها إلى مدير النظام.
+    </p>
+    <p><strong>النمط المناسب:</strong> سلسلة المسؤولية (Chain of Responsibility)</p>
+    <p><strong>الحل:</strong></p>
+    <ul>
+        <li>قم بإنشاء سلسلة من الكائنات (مشغل الهاتف → مدير الدعم الفني → مدير النظام).</li>
+        <li>يمرر كل كائن المشكلة إلى الكائن التالي إذا لم يستطع حلها.</li>
+        <li>إذا تم الوصول إلى نهاية السلسلة ولم تُحل المشكلة، يتم تسجيلها كمشكلة غير قابلة للحل.</li>
+    </ul>
+
+    <h2>2. نمط الأمر (Command)</h2>
+    <p><strong>المشكلة:</strong></p>
+    <p>
+        تحتاج إلى تصميم تطبيق لتحرير النصوص حيث يمكن للمستخدم تنفيذ العمليات مثل "نسخ"، "لصق"، و"تراجع" دون الاعتماد على التنفيذ المباشر لهذه العمليات.
+    </p>
+    <p><strong>النمط المناسب:</strong> الأمر (Command)</p>
+    <p><strong>الحل:</strong></p>
+    <ul>
+        <li>قم بإنشاء كائنات تمثل كل عملية (مثل نسخ، لصق، تراجع).</li>
+        <li>استخدم هذه الكائنات لتخزين معلومات العملية، مثل النص المحدد.</li>
+        <li>احتفظ بقائمة العمليات لتتمكن من تنفيذ التراجع وإعادة العمليات السابقة.</li>
+    </ul>
+
+    <h2>3. نمط المراقب (Observer)</h2>
+    <p><strong>المشكلة:</strong></p>
+    <p>
+        لديك تطبيق يعرض أسعار الأسهم، وترغب في تحديث جميع واجهات المستخدم تلقائيًا عند حدوث تغيير في سعر السهم.
+    </p>
+    <p><strong>النمط المناسب:</strong> المراقب (Observer)</p>
+    <p><strong>الحل:</strong></p>
+    <ul>
+        <li>قم بإنشاء كائن يمثل السهم (موضوع المراقبة).</li>
+        <li>قم بإرفاق جميع واجهات المستخدم (المراقبين) بهذا الكائن.</li>
+        <li>عند تغيير سعر السهم، يقوم الكائن الرئيسي بإعلام جميع المراقبين بالتغيير.</li>
+    </ul>
+
+    <h2>4. نمط الحالة (State)</h2>
+    <p><strong>المشكلة:</strong></p>
+    <p>
+        لديك نظام يعالج طلبات العملاء، وكل طلب يمر بمراحل مختلفة (تم الاستلام، قيد المعالجة، مكتمل). تريد إدارة سلوك الطلب بناءً على حالته.
+    </p>
+    <p><strong>النمط المناسب:</strong> الحالة (State)</p>
+    <p><strong>الحل:</strong></p>
+    <ul>
+        <li>قم بإنشاء كائن يمثل كل حالة (مثل "تم الاستلام"، "قيد المعالجة"، "مكتمل").</li>
+        <li>حدد داخل كل كائن العمليات المسموح بها في تلك الحالة.</li>
+        <li>قم بتغيير حالة الطلب عندما يتم استيفاء شروط الانتقال بين الحالات.</li>
+    </ul>
+
+    <h2>5. نمط الخطة (Strategy)</h2>
+    <p><strong>المشكلة:</strong></p>
+    <p>
+        تريد إنشاء تطبيق حجز سيارات أجرة يدعم طرق تسعير مختلفة (حسب المسافة، حسب الوقت، أو تسعير ثابت) بناءً على متطلبات العميل.
+    </p>
+    <p><strong>النمط المناسب:</strong> الخطة (Strategy)</p>
+    <p><strong>الحل:</strong></p>
+    <ul>
+        <li>قم بإنشاء واجهة عامة لطرق التسعير.</li>
+        <li>قم بإنشاء كائنات منفصلة لكل خطة تسعير (المسافة، الوقت، الثابت).</li>
+        <li>قم بتعيين خطة التسعير المطلوبة للكائن الرئيسي (تطبيق الحجز) أثناء التنفيذ.</li>
+    </ul>
+
+    <h2>6. نمط أسلوب القالب (Template Method)</h2>
+    <p><strong>المشكلة:</strong></p>
+    <p>
+        لديك تطبيق لتحضير المشروبات (شاي، قهوة)، وتريد تعريف الهيكل العام لتحضير المشروب مع تخصيص بعض التفاصيل لكل نوع.
+    </p>
+    <p><strong>النمط المناسب:</strong> أسلوب القالب (Template Method)</p>
+    <p><strong>الحل:</strong></p>
+    <ul>
+        <li>قم بإنشاء كائن يحتوي على الخطوات العامة لتحضير المشروب (مثل غلي الماء، صب السائل).</li>
+        <li>قم بتعريف العمليات التي تختلف بين الشاي والقهوة (إضافة أوراق الشاي أو القهوة).</li>
+        <li>دع الفئات الفرعية (الشاي والقهوة) تحدد التفاصيل المخصصة.</li>
+    </ul>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 جميع الحقوق محفوظة. تصميم بواسطة: "عبدالرحمن علي"
+    </footer>
+</body>
+</html>
+
+   
